@@ -10,15 +10,15 @@ This project explores what happens when every palindromic integer from **2 throu
 
 A **palindrome** reads the same forward and backward, for example `11`, `101`, or `12321`.
 
-For each palindromic integer `n`, the program computes
+For each palindromic integer `n`, the program computes:
 
-\[
-x(n) = n\sin(n)\cos(n)
-\]
+$$
+x(n) = n \sin(n) \cos(n)
+$$
 
-\[
-y(n) = n\sin^2(n)
-\]
+$$
+y(n) = n \sin^2(n)
+$$
 
 All trigonometric functions use **radians**. Every plotted dot represents exactly one palindrome. The point coordinates are computed directly from these equations; the colors and glow are visual styling.
 
